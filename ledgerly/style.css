@@ -4,7 +4,8 @@ header { display: flex; justify-content: space-between; align-items: center; pad
 .logo { font-weight: 800; font-size: 22px; color: #2563eb; }
 .login { color: #102a43; text-decoration: none; font-weight: 600; }
 .hero { text-align: center; padding: 64px 24px 48px; }
-.hero h1 { font-size: 64px; line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 16px; white-space: nowrap; }
+.hero h1 { font-size: 64px; line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 16px; }
+@media (max-width: 600px) { .hero h1 { font-size: 36px; } }
 .hero p { font-size: 20px; color: #486581; margin: 0 0 28px; }
 .cta { display: inline-block; background: #2563eb; color: #fff; padding: 14px 28px; border-radius: 10px; text-decoration: none; font-weight: 700; }
 .plans { display: flex; justify-content: center; gap: 24px; padding: 0 24px 64px; flex-wrap: wrap; }
