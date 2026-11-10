@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Fieldnote: notes that find themselves</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #1d2433; background: #f7f5f0; }
+  header { display: flex; align-items: center; justify-content: space-between; padding: 22px 48px; }
+  .logo { font-weight: 800; font-size: 22px; letter-spacing: -0.02em; }
+  .logo span { color: #d9622b; }
+  nav a { margin-left: 28px; color: #1d2433; text-decoration: none; font-size: 15px; }
+  .hero { display: grid; grid-template-columns: 1.1fr 1fr; gap: 48px; align-items: center; padding: 56px 48px 72px; max-width: 1180px; margin: 0 auto; }
+  h1 { font-size: 56px; line-height: 1.05; letter-spacing: -0.03em; margin: 0 0 18px; }
+  .lead { font-size: 19px; line-height: 1.55; color: #4a5263; margin: 0 0 30px; max-width: 480px; }
+  .cta { display: inline-block; background: #d9622b; color: #fff; padding: 14px 26px; border-radius: 10px; font-weight: 700; text-decoration: none; }
+  .ghost { margin-left: 14px; color: #1d2433; font-weight: 600; text-decoration: none; }
+  .card { background: #fff; border-radius: 18px; padding: 26px; box-shadow: 0 20px 50px rgba(29,36,51,0.12); }
+  .note { border-left: 4px solid #d9622b; padding: 10px 14px; margin-bottom: 14px; background: #fbf8f3; border-radius: 6px; font-size: 15px; }
+  .note b { display: block; margin-bottom: 4px; }
+  .tags span { display: inline-block; font-size: 12px; background: #eee8dc; padding: 4px 9px; border-radius: 20px; margin: 4px 6px 0 0; }
+  .features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; max-width: 1180px; margin: 0 auto; padding: 0 48px 80px; }
+  .features div { background: #fff; border-radius: 14px; padding: 22px; }
+  .features h3 { margin: 0 0 8px; font-size: 18px; }
+  .features p { margin: 0; color: #4a5263; line-height: 1.5; font-size: 15px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">field<span>note</span></div>
+  <nav><a href="#">Features</a><a href="#">Pricing</a><a href="#">Blog</a><a href="#">Sign in</a></nav>
+</header>
+<section class="hero">
+  <div>
+    <h1>Notes that find themselves.</h1>
+    <p class="lead">Write anything. Fieldnote links related notes, tags them for you and brings them back when they matter.</p>
+    <a class="cta" href="#">Start free</a><a class="ghost" href="#">See how it works</a>
+  </div>
+  <div class="card">
+    <div class="note"><b>Client call, Tuesday</b>Wants the export in CSV, deadline end of month.</div>
+    <div class="note"><b>Reading list</b>Three essays on habit tracking, saved from the train.</div>
+    <div class="note"><b>Garden plan</b>Tomatoes by the south wall, basil in pots.</div>
+    <div class="tags"><span>#work</span><span>#reading</span><span>#home</span></div>
+  </div>
+</section>
+<section class="features">
+  <div><h3>Links itself</h3><p>Related notes show up side by side, no folders needed.</p></div>
+  <div><h3>Works offline</h3><p>Write on the train. It syncs when you are back online.</p></div>
+  <div><h3>Search that gets you</h3><p>Find the note you meant, even with the wrong word.</p></div>
+</section>
+</body>
+</html>
